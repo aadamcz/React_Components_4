@@ -87,11 +87,11 @@ var MovieImage = React.createClass({
 //Jak utworzyć MoviesList?
 var MoviesList = React.createClass({
 	propTypes: {
-		list: React.PropTypes.object.isRequired,
+		list: React.PropTypes.object.isRequired, // a może array ?
 	},
 	render: function(){
 		var movies = this.props.movies.map(function(movie) {
-		return React.createElement(Movie, ///////////
+		return React.createElement(//????
 		});
 	}
 });
